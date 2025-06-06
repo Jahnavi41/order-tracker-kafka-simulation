@@ -2,3 +2,12 @@
 /shelf/
 /workspace.xml
 .properties
+/target
+*.iml
+*.class
+*.log
+*.env
+*.yml
+application.yml
+.idea/
+/.vscode/
