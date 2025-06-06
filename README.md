@@ -56,16 +56,18 @@ Every 5 seconds, the system automatically updates order statuses and logs these 
 2. Configure PostgreSQL connection
    ```bash
     spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/your_database
-    username: your_username
-    password: your_password
+     datasource:
+       url: jdbc:postgresql://localhost:5432/your_database
+       username: your_username
+       password: your_password
 3. Build and run the application
 4. Use swagger to test
 
 ### Output
 
+#Logs
 ![image](https://github.com/user-attachments/assets/ba87058d-b1c8-4a16-9b5f-52ec6daac981)
 
+#Swagger
 ![image](https://github.com/user-attachments/assets/67eedaca-4d6e-4fc9-a7c5-648cf90c0132)
 
